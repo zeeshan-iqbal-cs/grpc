@@ -1,0 +1,22 @@
+{
+  "name": "grpc-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh proto/build.sh",
+    "start:server": "ts-node server/index.ts",
+    "start:client": "ts-node client/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.17",
+    "@types/google-protobuf": "^3.15.6",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.12.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
